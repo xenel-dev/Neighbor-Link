@@ -1,0 +1,17 @@
+[
+  { "name": "Ms. Rivera", "role": "Teacher", "help": "Organizing school fair" },
+  { "name": "Jamal", "role": "Student", "help": "Tutoring math" },
+  { "name": "Nina", "role": "Neighbor", "help": "Hosting weekend cleanup" },
+  { "name": "Coach Lee", "role": "Staff", "help": "Running after-school sports" },
+  { "name": "Ava", "role": "Student", "help": "Helping with tech setup" },
+  { "name": "Mr. Patel", "role": "Parent", "help": "Volunteering for field trips" },
+  { "name": "Lena", "role": "Neighbor", "help": "Delivering groceries to seniors" },
+  { "name": "Mrs. Chen", "role": "Teacher", "help": "Organizing book drive" },
+  { "name": "Diego", "role": "Student", "help": "Helping with recycling program" },
+  { "name": "Tariq", "role": "Community Leader", "help": "Planning town hall meetings" },
+  { "name": "Zoe", "role": "Neighbor", "help": "Pet-sitting for busy families" },
+  { "name": "Mr. Johnson", "role": "Staff", "help": "Maintaining school garden" },
+  { "name": "Emily", "role": "Student", "help": "Creating posters for events" },
+  { "name": "Fatima", "role": "Parent", "help": "Coordinating snack donations" },
+  { "name": "Leo", "role": "Neighbor", "help": "Fixing bikes for kids" }
+]
