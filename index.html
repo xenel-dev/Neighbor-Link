@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Basic Meta Tags -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Connect. Support. Volunteer. Discover help in your neighborhood." />
+  <meta name="keywords" content="NeighborLink, community, volunteering, helper app, local support" />
+  <meta name="author" content="Xenel Rodriguez" />
+
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="October 1" />
+  <meta property="og:description" content="Connect. Support. Volunteer. Discover help in your neighborhood." />
+  <meta property="og:image" content="https://xenel-dev.github.io/Neighbor-Link/images/community-helper-preview.jpg" />
+  <meta property="og:url" content="https://xenel-dev.github.io/Neighbor-Link/" />
+  <meta property="og:type" content="website" />
+
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="October 1" />
+  <meta name="twitter:description" content="Connect. Support. Volunteer. Discover help in your neighborhood." />
+  <meta name="twitter:image" content="https://xenel-dev.github.io/Neighbor-Link/images/community-helper-preview.jpg" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="64x64" href="images/favicon-64x64.png" />
+
+  <!-- Title and Styles -->
+  <title>NeighborLink</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+
+
+<body>
+  <header class="main-header">
+  <nav class="navbar">
+    <div class="nav-left">
+      <h1 class="site-title">Neighbor Link</h1>
+      <p class="site-tagline">Where neighbors connect, help, and grow together</p>
+    </div>
+
+    <div class="nav-center">
+      <ul class="nav-links">
+        <li><a href="#landing">Home</a></li>
+        <li><a href="#resources">Resources</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="nav-right">
+      <a href="#resources" class="explore-btn">Explore Resources</a>
+    </div>
+  </nav>
+</header>
+
+
+
+
+  <main>
+    <!-- Landing Page -->
+    <section id="landing" class="landing-section">
+  <video autoplay muted loop playsinline class="banner-video">
+    <source src="./video/landing pages.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+</section>
+
+  <section id="landing-gallery" class="gallery-section">
+      <div class="content-box">
+        <img src="./images/hand.jpg" alt="Helping hands" />
+        <p>Support from students, teachers, and neighbors.</p>
+      </div>
+      <div class="content-box">
+        <img src="./images/community.jpg" alt="Community event" />
+        <p>Local events that bring people together.</p>
+      </div>
+      <div class="content-box">
+        <img src="./images/volunteer.jpg" alt="Volunteering" />
+        <p>Kindness in action, one task at a time.</p>
+      </div>
+  </section>
+
+    <!-- Resources Section -->
+  <section id="resources" class="section helper-section">
+  <div class="section-content">
+    <h2>Community Resources</h2>
+    <p class="section-description">Meet the people offering help in your neighborhood.</p>
+    <div id="community-resources" class="community-resources">
+      <!-- Cards injected by script.js -->
+    </div>
+  </div>
+</section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+      <div class="section-content">
+        <h2>Contact Us</h2>
+        <form action="https://formsubmit.co/rodriguezxenel@gmail.com" method="POST" class="contact-form">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+  <nav class="footer-nav">
+    <a href="#landing">Home</a>
+    <a href="#resources">Resources</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="social-icons">
+    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+    <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+  </div>
+
+  <p class="footer-text">© 2025 NeighborLink. Built with care for our community.</p>
+</footer>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
